@@ -1,0 +1,87 @@
+/* Full screen section */
+#intro {
+     /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: black; /* Dark background */
+    color: white;
+    margin-top: 200px;
+    margin-left: 20px;
+
+  }
+  
+  /* Content on the left */
+  .textContent {
+    max-width: 600px;
+    flex: 1; /* Allow the text content to take up available space */
+  }
+  
+  .hello {
+    font-size: 24px;
+    font-weight: 300;
+    color: #f5f5f5;
+  }
+  
+  .introtext {
+    display: block;
+    font-size: 48px;
+    font-weight: 1000;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .introname {
+    color:#ffc107; /* Highlighted color (yellow) */
+  }
+  
+  .role {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #eaeaea;
+  }
+  
+  .intropara {
+    font-size: 18px;
+    color: #bbb;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    background-color: #ffc107;
+    color: #1c1c1c;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    
+  }
+  
+  .btn:hover {
+    background-color: #ffa000;
+  }
+  
+  .btn-icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Profile image on the right */
+  .profileImage {
+    height: 80vh; /* Adjust to your preference */
+    
+    
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-left: 800px;
+    margin-top: -400px;
+  }
+  

@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    background: linear-gradient(135deg, hwb(60 43% 7%), hsl(68, 92%, 56%));
+    height: 50px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar-logo {
+    height: 50px; 
+    width: auto;
+    margin-left: 30px;
+}
+
+
+
+.menuListItem {
+    padding: 10px;
+    color: #fff;
+    
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.menuListItem:hover {
+    background-color: rgba(76, 85, 79, 0.796); /* Background on hover */
+    transform:skewX(1) /* Lift effect on hover */
+}
+
+
