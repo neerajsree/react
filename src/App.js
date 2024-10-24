@@ -1,14 +1,16 @@
 import Navbar1 from './components/navbar/Navbar';
 import Intro1 from './components/body/Intro';
+import Skill1 from './components/skill/Skills';
 
 import './App.css';
 
 
 function App() {
   return (
-    <div>
+    <div className='apppp'>
       <Navbar1 /> 
-      <Intro1/>{/* Include the Navbar component here */}
+      <Intro1/>
+      <Skill1/>
     
     </div>
   );

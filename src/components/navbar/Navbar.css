@@ -25,14 +25,17 @@
 .menuListItem {
     padding: 10px;
     color: #fff;
+    font-size:larger;
     
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
 
 .menuListItem:hover {
-    background-color: rgba(76, 85, 79, 0.796); /* Background on hover */
+    background-color: rgba(76, 85, 79, 0.796); 
+    margin-top: 30px;
     transform:skewX(1) /* Lift effect on hover */
+    
 }
 
 
