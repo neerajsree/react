@@ -4,6 +4,7 @@ import './Intro.css';
 
 const Intro1 = () => {
   return (
+    <div className='introo'>
     <div className='bb'>
       <section id="intro">
         <div className="introContent">
@@ -25,6 +26,7 @@ const Intro1 = () => {
       </section>
       <img src={personImage} alt="Profile" className="profileImage" />
     </div>
+    </div> 
   );
 };
 

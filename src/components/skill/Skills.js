@@ -2,11 +2,11 @@ import React from "react";
 import html from '../../assets/logo4.png';
 import css from '../../assets/logo5.jpg';
 import js from '../../assets/logo6.jpg';
-
+import  './Skills.css'
 
 function Skill1(){
     return(
-        <div>
+        <div id='aboutt'>
             <secton id='skills'>
                 <span className="skilltitle">What I do</span>
                 <span className="skilldes">T am a skilled and passionated web designer  with experence</span>
