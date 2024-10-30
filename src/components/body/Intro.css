@@ -78,11 +78,13 @@
   /* Profile image on the right */
   .profileImage {
     height: 80vh; /* Adjust to your preference */
+    position:absolute;
     
     
-    flex-shrink: 0; /* Prevent the image from shrinking */
-    margin-left: 800px;
-    margin-top: -400px;
+    
+    margin-left: 900px;
+    margin-top:  -450px;
+    border-radius:500px
   }
   .introo{
     height: 1000px;

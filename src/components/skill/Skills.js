@@ -9,7 +9,7 @@ function Skill1(){
         <div id='aboutt'>
             <secton id='skills'>
                 <span className="skilltitle">What I do</span>
-                <span className="skilldes">T am a skilled and passionated web designer  with experence</span>
+                <span className="skilldes">I am a skilled and passionated web designer  </span>
                 <div className="skillbar">
                     <img src={html} alt="html"className="skillbarimg"></img>
                     <div className="skillbartext">
