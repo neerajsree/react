@@ -1,8 +1,9 @@
 import Navbar1 from './components/navbar/Navbar';
 import Intro1 from './components/body/Intro';
 import Skill1 from './components/skill/Skills';
-
+import Contact1 from './components/contact/Contact';
 import './App.css';
+
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar1 /> 
       <Intro1/>
       <Skill1/>
+            <Contact1/>
     
     </div>
   );

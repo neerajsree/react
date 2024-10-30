@@ -1,4 +1,9 @@
 /* Skill1.css */
+#aboutt{
+    height: 1000px;
+    padding-bottom:700px ;
+}
+
 
 #skills {
     background-color: #f4f4f4; /* Light background for contrast */
