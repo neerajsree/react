@@ -1,43 +1,51 @@
+import React from 'react';
+import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import './Contact.css'; 
+const Contact1 = () => {
+  return (
+    <div id='contactt'>
+            
+    <div className="intro">Contact</div>
+                <hr className="line1"></hr>
+                <hr className="line2"></hr>
 
-        import React from 'react';
-        import './Contact.css'
-
-        function Contact1() {
-            const handleSubmit = (e) => {
-                e.preventDefault();
-                // Handle form submission logic here
-              };
-            return (
-                <div className="contact-container">
-      <h1>Get in Touch</h1>
-      <p>We'd love to hear from you! Please fill out the form below.</p>
-
-      <form className="contact-form" onSubmit={handleSubmit}>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <input type="text" placeholder="Subject" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-
-      <div className="contact-info">
-        <h2>Contact Information</h2>
-        <p>Address: 1234 Street Name, City, Country</p>
-        <p>Phone: <a href="tel:+123456789">+1 234 567 89</a></p>
-        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
-        <div className="social-media">
-          <a href="">Facebook</a>
-          <a href="">Twitter</a>
-          <a href="">Instagram</a>
+                <div className="contactcontainer">
+      <div className="contactinfo">
+        <h1>Contact Me</h1>
+        <p>Let's <span className="highlight">Connect</span> & <span className="highlight">Collaborate</span></p>
+        
+        <div className="contactdetails">
+          <div className="contactitem">
+            <FaPhoneAlt />
+            <span>0895 2151 7184</span>
+          </div>
+          <div className="contactitem">
+            <FaEnvelope />
+            <span>your.email@example.com</span>
+          </div>
+          <div className="contactitem">
+            <FaEnvelope />
+            <span>alternate.email@example.com</span>
+          </div>
         </div>
       </div>
 
+      <div className="contactform">
+        <input type="text" placeholder="Your name" />
+        <div className="formrow">
+          <input type="email" placeholder="Your Email" />
+          <input type="number" placeholder="Your Number" />
+        </div>
+        <input type="" placeholder="Subject" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </div>
+    </div>           
+      
    
-    </div>
-                
-            );
-        }
-        
-        
-        
-export default Contact1
+    
+   </div> 
+  );
+};
+
+export default Contact1;

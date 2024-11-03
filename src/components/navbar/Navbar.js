@@ -5,14 +5,14 @@ import { Link } from 'react-scroll';
 
 const Navbar1 = () => {
     return (
-        <div>
+        <div >
             <nav className='navbar'>
                 <img src={logo1} alt="logo" className='navbar-logo' />
                 <div className='menu'>
-                    <Link className='menuListItem'>Home</Link>
+                    <Link  to='introo' className='menuListItem'>Home</Link>
                     <Link  to='aboutt' className='menuListItem'>About</Link>
                     <Link className='menuListItem'>Education</Link>
-                    <Link className='menuListItem'>contact</Link>
+                    <Link  to='contactt' className='menuListItem'>Contact</Link>
                     
                 </div>
             </nav>

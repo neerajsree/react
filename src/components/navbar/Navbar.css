@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 
 .navbar {
@@ -7,13 +7,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px; 
-    background: linear-gradient(135deg, hwb(60 43% 7%), hsl(68, 92%, 56%));
+    background:darkorchid;
     height: 50px;
-    width: 49.5cm; 
+    width: 40cm; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     
     top: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .navbar-logo {

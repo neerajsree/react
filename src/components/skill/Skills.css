@@ -1,58 +1,72 @@
-/* Skill1.css */
 #aboutt{
-    height: 1000px;
-    padding-bottom:700px ;
+  height:800px;
+  padding-top: 100px;
+}
+.intro{
+    text-align: center;
+    font-size: 50px;
+    color:darkorchid ;
+}
+.line1{
+    margin-top: -30px;
+    margin-right: 835px;
+}
+.line2{
+    margin-top: -1px;
+    margin-left: 835px;
 }
 
 
-#skills {
-    background-color: #f4f4f4; /* Light background for contrast */
-    padding: 40px 20px; /* Padding around the section */
-    text-align: center; /* Center align text */
-}
 
-.skilltitle {
-    font-size: 2.5rem; /* Large title */
-    font-weight: bold; /* Bold text */
-    margin-bottom: 20px; /* Space below the title */
-    display: block; /* Make it a block element */
-    color: #333; /* Darker text color */
-}
 
-.skilldes {
-    font-size: 1.2rem; /* Slightly smaller description */
-    margin-bottom: 30px; /* Space below the description */
-    color: #666; /* Medium gray color for description */
-}
+.aboutcontainer {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+ 
+  
+  .skillsection {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  
+  .skill-icon {
+    
+    width: 100px;
+    height: 100px;
+    margin-right:50px
+  }
+  
+  .skill-icon img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .skill-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkorchid;
+    
 
-.skillbar {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    margin: 20px 0; /* Space between skill bars */
-    background: #fff; /* White background for each skill */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 15px; /* Padding within the skill bar */
-}
-
-.skillbarimg {
-    width: 50px; /* Set a fixed width for images */
-    height: 50px; /* Set a fixed height for images */
-    margin-right: 15px; /* Space between image and text */
-}
-
-.skillbartext {
-    text-align: left; /* Align text to the left */
-}
-
-.skillbartext h2 {
-    font-size: 1.5rem; /* Skill name size */
-    margin: 0; /* No margin for header */
-    color: #007BFF; /* Bootstrap primary color for skill names */
-}
-
-.skillbartext p {
-    margin: 5px 0 0 0; /* Margin for paragraph */
-    color: #777; /* Lighter gray for skill descriptions */
-}
+  }
+  
+  .skill-content p {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    font-family:'Times New Roman', Times, serif;
+  }
+  

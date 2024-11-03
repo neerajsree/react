@@ -1,38 +1,64 @@
 import React from "react";
-import html from '../../assets/logo4.png';
-import css from '../../assets/logo5.jpg';
-import js from '../../assets/logo6.jpg';
-import  './Skills.css'
+import  './Skills.css';
+import fig1 from '../../assets/logo3.png';
+import fig2 from '../../assets/logo4 (1).png';
+import fig3 from '../../assets/logo5.png';
+
+
 
 function Skill1(){
     return(
         <div id='aboutt'>
-            <secton id='skills'>
-                <span className="skilltitle">What I do</span>
-                <span className="skilldes">I am a skilled and passionated web designer  </span>
-                <div className="skillbar">
-                    <img src={html} alt="html"className="skillbarimg"></img>
-                    <div className="skillbartext">
-                        <h2>HTML</h2>
-                        <p></p>
-                    </div>
-                </div>
-                <div className="skillbar">
-                    <img src={css} alt="css"className="skillbarimg"></img>
-                    <div className="skillbartext">
-                        <h2>CSS</h2>
-                        <p></p>
-                    </div>
-                </div>
-                <div className="skillbar">
-                    <img src={js} alt="js"className="skillbarimg"></img>
-                    <div className="skillbartext">
-                        <h2>JAVA SCRIPT</h2>
-                        <p></p>
-                    </div>
-                </div>
-            </secton>
+            
+<div className="intro">About</div>
+            <hr className="line1"></hr>
+            <hr className="line2"></hr>
+            <div className="aboutcontainer">
+      
+
+      <div className="skillsection">
+        <div className="skill-icon">
+          <img src={fig1} alt="Creative Thinking" />
         </div>
+        <div className="skill-content">
+          <h2>Creative Thinking</h2>
+          <p>
+            I approach challenges with fresh perspectives, always looking for innovative ideas to drive progress and inspire others.
+          </p>
+        </div>
+      </div>
+
+      <div className="skillsection">
+        <div className="skill-icon">
+          <img src={fig2} alt="Problem Solving " />
+        </div>
+        <div className="skill-content">
+          <h2>Problem-Solving</h2>
+          <p>
+            I enjoy tackling complex situations, analyzing problems, and finding solutions that are both practical and sustainable.
+          </p>
+        </div>
+      </div>
+
+      <div className="skillsection">
+        <div className="skill-icon">
+          <img src={fig3} alt="Leadership" />
+        </div>
+        <div className="skill-content">
+          <h2>Leadership</h2>
+          <p>
+            My leadership style focuses on motivating others and fostering collaboration to achieve shared goals with clarity and trust.
+          </p>
+        </div>
+      </div>
+    </div>
+        
+
+
+
+
+        </div>
+            
     )
 }
 export default Skill1;

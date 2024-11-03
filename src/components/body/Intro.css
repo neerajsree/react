@@ -9,6 +9,7 @@
     color: white;
     margin-top: 200px;
     margin-left: 20px;
+    
 
   }
   
@@ -33,7 +34,7 @@
   }
   
   .introname {
-    color:#ffc107; /* Highlighted color (yellow) */
+    color:darkorchid; /* Highlighted color (yellow) */
   }
   
   .role {
@@ -52,7 +53,7 @@
   }
   
   .btn {
-    background-color: #ffc107;
+    background-color:darkorchid;
     color: #1c1c1c;
     border: none;
     padding: 15px 30px;
@@ -66,7 +67,7 @@
   }
   
   .btn:hover {
-    background-color: #ffa000;
+    background-color:darkorchid;
   }
   
   .btn-icon {
@@ -75,18 +76,15 @@
     height: 20px;
   }
   
-  /* Profile image on the right */
+  
   .profileImage {
-    height: 80vh; /* Adjust to your preference */
+    height: 80vh; 
     position:absolute;
-    
-    
-    
     margin-left: 900px;
     margin-top:  -400px;
     border-radius:500px
   }
   .introo{
-    height: 1000px;
+    height: 600px;
   }
   

@@ -12,7 +12,9 @@ function App() {
       <Navbar1 /> 
       <Intro1/>
       <Skill1/>
-            <Contact1/>
+      <Contact1/>
+      
+            
     
     </div>
   );
