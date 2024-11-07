@@ -5,7 +5,7 @@ const Contact1 = () => {
   return (
     <div id='contactt'>
             
-    <div className="intro">Contact</div>
+    <div className="introcontact">Contact</div>
                 <hr className="line1"></hr>
                 <hr className="line2"></hr>
 
@@ -21,12 +21,9 @@ const Contact1 = () => {
           </div>
           <div className="contactitem">
             <FaEnvelope />
-            <span>your.email@example.com</span>
+            <span>neerajsree008@gmail.com</span>
           </div>
-          <div className="contactitem">
-            <FaEnvelope />
-            <span>alternate.email@example.com</span>
-          </div>
+          
         </div>
       </div>
 
@@ -40,9 +37,8 @@ const Contact1 = () => {
         <textarea placeholder="Your Message"></textarea>
         <button type="submit">Send Message</button>
       </div>
-    </div>           
-      
-   
+    </div>    
+    
     
    </div> 
   );

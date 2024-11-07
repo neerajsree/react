@@ -10,7 +10,7 @@ function Skill1(){
     return(
         <div id='aboutt'>
             
-<div className="intro">About</div>
+<div className="introabout">About</div>
             <hr className="line1"></hr>
             <hr className="line2"></hr>
             <div className="aboutcontainer">

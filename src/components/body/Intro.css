@@ -1,11 +1,11 @@
-/* Full screen section */
+
 #intro {
-     /* Full viewport height */
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-    background-color: black; /* Dark background */
+    background-color: black; 
     color: white;
     margin-top: 200px;
     margin-left: 20px;
@@ -13,10 +13,10 @@
 
   }
   
-  /* Content on the left */
+ 
   .textContent {
     max-width: 600px;
-    flex: 1; /* Allow the text content to take up available space */
+    flex: 1; 
   }
   
   .hello {
@@ -34,7 +34,7 @@
   }
   
   .introname {
-    color:darkorchid; /* Highlighted color (yellow) */
+    color:darkorchid;
   }
   
   .role {
@@ -87,4 +87,132 @@
   .introo{
     height: 600px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    #intro {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px;
+        margin-top: 100px; /* Adjust margin for small screens */
+    }
+
+    .textContent {
+        max-width: 100%; /* Use full width for text content */
+        text-align: center; /* Center text */
+    }
+
+    .introtext {
+        font-size: 40px; /* Smaller font size */
+    }
+
+    .role {
+        font-size: 30px; /* Adjust role font size */
+    }
+
+    .intropara {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+
+    .btn {
+        width: 100%; /* Make button full width */
+        padding: 15px;
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .profileImage {
+        height: 50vh; /* Adjust profile image size for mobile */
+        margin-left: 0;
+        margin-top: 20px; /* Adjust image margin */
+    }
+}
+
+/* For medium screens (tablets, etc.) */
+@media screen and (max-width: 768px) {
+    #intro {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px;
+        margin-top: 150px;
+    }
+
+    .textContent {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .introtext {
+        font-size: 60px; /* Adjust font size */
+    }
+
+    .role {
+        font-size: 35px; /* Adjust font size */
+    }
+
+    .intropara {
+        font-size: 17px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .profileImage {
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+/* For larger screens (desktops and above) */
+@media screen and (min-width: 769px) {
+    #intro {
+        flex-direction: row; /* Maintain row layout for desktops */
+        padding: 0 50px;
+        margin-top: 200px;
+    }
+
+    .textContent {
+        max-width: 600px;
+        text-align: left;
+    }
+
+    .introtext {
+        font-size: 80px; /* Larger font size for desktop */
+    }
+
+    .role {
+        font-size: 40px;
+    }
+
+    .intropara {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: auto;
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+
+    .profileImage {
+        height: 80vh;
+        margin-left: 900px;
+        margin-top: -400px;
+    }
+}
   

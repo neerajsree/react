@@ -11,8 +11,8 @@ const Navbar1 = () => {
                 <div className='menu'>
                     <Link  to='introo' className='menuListItem'>Home</Link>
                     <Link  to='aboutt' className='menuListItem'>About</Link>
-                    <Link className='menuListItem'>Education</Link>
-                    <Link  to='contactt' className='menuListItem'>Contact</Link>
+                    <Link to='eduu' className='menuListItem'>Education</Link>
+                    <a href='http://localhost:4200/'  className='menuListItem'>Contact</a>
                     
                 </div>
             </nav>
