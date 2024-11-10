@@ -12,7 +12,9 @@ const Navbar1 = () => {
                     <Link  to='introo' className='menuListItem'>Home</Link>
                     <Link  to='aboutt' className='menuListItem'>About</Link>
                     <Link to='eduu' className='menuListItem'>Education</Link>
+                    <a href='http://localhost:4200/'  className='menuListItem'>Goals</a>
                     <a href='http://localhost:4200/'  className='menuListItem'>Contact</a>
+                    <a href='http://localhost:4200/'  className='menuListItem'></a>
                     
                 </div>
             </nav>

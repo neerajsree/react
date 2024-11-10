@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import './Contact.css'; 
+import logo6 from '../../assets/logo6.png'
 const Contact1 = () => {
   return (
     <div id='contactt'>
@@ -23,6 +24,7 @@ const Contact1 = () => {
             <FaEnvelope />
             <span>neerajsree008@gmail.com</span>
           </div>
+          <div className='insta'><img src={logo6} alt='insta'/></div>
           
         </div>
       </div>

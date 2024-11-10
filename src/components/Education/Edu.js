@@ -22,8 +22,9 @@ function Edu1(){
           <i className="fa fa-graduation-cap"></i>
         </div>
         <div className="timeline-content">
-          <h3>High School</h3>
-          <p>Completed high school with a focus on Science. Achieved excellent grades and participated in various extracurricular activities.</p>
+          <h3>10th Grade</h3>
+          <p>Completed 10th grade at Viswaprakash Central School with an 86% score, excelling in Science and Mathematics.</p>
+
         </div>
       </div>
 
@@ -32,8 +33,9 @@ function Edu1(){
           <i className="fa fa-graduation-cap"></i>
         </div>
         <div className="timeline-content">
-          <h3>Bachelor's Degree</h3>
-          <p>Pursued a Bachelor's degree in Computer Science, specializing in software development and data structures.</p>
+          <h3>Higher Secondary</h3>
+          <p>Completed higher secondary education at Govt Model  BHSS School with a 94% score, specializing in Computer Science.</p>
+
         </div>
       </div>
 
@@ -42,8 +44,9 @@ function Edu1(){
           <i className="fa fa-graduation-cap"></i>
         </div>
         <div className="timeline-content">
-          <h3>Master's Degree</h3>
-          <p>Completed a Master's degree in Information Technology, focusing on data analysis and machine learning.</p>
+          <h3>Bachelor's Degree</h3>
+          <p>Completed a Bachelor's degree in Computer Science at Government College Kariavattom, affiliated with Kerala University, with a 76% score, gaining a solid foundation in software development and data structures.</p>
+
         </div>
       </div>
 
@@ -52,8 +55,8 @@ function Edu1(){
           <i className="fa fa-graduation-cap"></i>
         </div>
         <div className="timeline-content">
-          <h3>Certifications</h3>
-          <p>Acquired certifications in Data Science and Web Development to enhance skills in modern technologies.</p>
+          <h3>Master's Degree</h3>
+           <p>Currently pursuing a Master's degree in Computer Science at the Kariavattom campus</p>
         </div>
       </div>
     </div>

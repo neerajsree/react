@@ -93,4 +93,8 @@
     background: darkorchid;
     transform: translateX(-50%);
   }
+  p{
+    text-align:justify;
+    font-family: monospace;
+  }
   
