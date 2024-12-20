@@ -2,6 +2,7 @@ import React from 'react';
 import personImage from '../../assets/logo2.jpg'; 
 import './Intro.css';
 
+
 const Intro1 = () => {
   return (
     <div className='introo'>
@@ -17,8 +18,8 @@ const Intro1 = () => {
             <p className="intropara">
               I am a skilled and passionate front-end developer, focused on creating visually appealing and user-friendly websites. Let's build something great together.
             </p>
-            <button className="btn">
-              <img src="logo3.png" alt="button img" className="btn-icon" />Hire Me
+            <button className="btn" > <a href="#contactt"  >contact me</a>
+              
             </button>
           </div>
           

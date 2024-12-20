@@ -5,7 +5,7 @@
 .introcontact{
   text-align: center;
   font-size: 50px;
-  color:darkorchid; ;
+  color:darkorchid;
 }
 .line1{
   margin-top: -30px;
@@ -102,10 +102,29 @@
 .contactform button:hover {
   background-color:rgb(68, 59, 72);
 }
+.logoo img{
+  height: 40px;
+  margin-left: 0px;
+  margin-top:20px
+
+
+}
+.face{
+  margin-left: 50px;
+  margin-top:-62px;
+  
+}
 .insta{
-  height:50px;
-  width: auto;
-  margin-left: 20px;
+  margin-left:100px;
+  margin-top: -60px;
+}
+.git img {
+  height: 80px;
+}
+
+.git{
+  margin-left: 150px;
+  margin-top:-85px;
 }
 
 
@@ -114,34 +133,7 @@
 
 
 
-/* For screens 1500px and wider */
-@media screen and (min-width: 1500px) {
-  #contactt {
-    padding-top: 150px; /* Adjust padding if needed */
-  }
 
-  .introcontact {
-    font-size: 60px; /* Adjust font size for large screens */
-  }
 
-  .contactcontainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 600px;
-    padding: 60px 100px; /* Increase padding for larger screens */
-  }
 
-  .contactinfo {
-    max-width: 40%; /* Keep contact info at 40% of the container */
-  }
 
-  .contactform {
-    max-width: 50%; /* Keep contact form at 50% of the container */
-  }
-
-  .contactform button {
-    font-size: 1.3rem; /* Larger button text */
-    padding: 1rem; /* Increase button padding */
-  }
-}

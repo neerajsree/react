@@ -14,6 +14,9 @@ function Edu1(){
         <hr className="line2"></hr>
 
 
+        <hr class='timelinee'></hr>
+
+
         
 
         <div className="timeline">

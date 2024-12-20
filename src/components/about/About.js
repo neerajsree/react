@@ -1,5 +1,5 @@
 import React from "react";
-import  './Skills.css';
+import  './About.css';
 import fig1 from '../../assets/logo3.png';
 import fig2 from '../../assets/logo4 (1).png';
 import fig3 from '../../assets/logo5.png';
