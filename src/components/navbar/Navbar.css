@@ -22,7 +22,7 @@
     padding: 10px;
     color: #fff;
     font-size: larger;
-    cursor: context-menu;
+    cursor:pointer;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
 }

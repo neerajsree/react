@@ -29,6 +29,7 @@
 hr.timelinee {
   margin-top: 1800px;
   background-color: darkorchid;
+  border: 1px solid darkorchid;
   width: 5px;
 }
 

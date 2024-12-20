@@ -16,7 +16,7 @@ const Intro1 = () => {
             </span>
             <span className="role">Website Designer</span>
             <p className="intropara">
-              I am a skilled and passionate front-end developer, focused on creating visually appealing and user-friendly websites. Let's build something great together.
+              I am a skilled and passionate front-end developer, focused on creating visually appealing and user-friendly websites. 
             </p>
             <button className="btn" > <a href="#contactt"  >contact me</a>
               

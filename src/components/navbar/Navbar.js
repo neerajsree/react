@@ -12,7 +12,7 @@ const Navbar1 = () => {
                 <a href='#intro' className='menuListItem'>Home</a>
                 <a href='#aboutt' className='menuListItem'>About</a>
                 <a href='#eduu' className='menuListItem'>Education</a>
-                <a href='http://localhost:4200/#goal'  className='menuListItem'>Goals</a>
+                <a href='http://localhost:4200/'  className='menuListItem'>Goals</a>
                 <a href='http://localhost:4200/#skill'  className='menuListItem'>Skill</a>
                 
                    
